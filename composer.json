@@ -1,0 +1,14 @@
+{
+    "name": "romain/project",
+    "authors": [
+        {
+            "name": "RomainDanizel",
+            "email": "romain.danizel@hetic.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.1"
+    }
+}
