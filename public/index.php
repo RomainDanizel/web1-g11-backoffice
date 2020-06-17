@@ -1,3 +1,4 @@
+
 <?php
 ini_set('display_errors', 'on');
 
@@ -22,8 +23,18 @@ require_once APP_ROOT_DIR . "includes/files.php";
 require_once APP_ROOT_DIR . "includes/function.php";
 require  APP_ROOT_DIR . "app/add.php";
 require  APP_ROOT_DIR . "app/read.php";
+ echo '<div class ="link">
+    <a href="../includes/form.php" class ="link_form">Formulaire</a>
+</div>
+<style>
+    link_form {
+        background-color:green;
+        width:30px;
+        height: 30px;
+    }
+</style>
+</div>'
+?>
 
-newVideo(104, 'jean', 'rap', 'dema.mp4', 'jamais . je . pensais . que . ça . allait . mal . se . passer');
-getFile();
 
 
